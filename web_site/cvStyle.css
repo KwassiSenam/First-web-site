@@ -1,0 +1,36 @@
+h2
+{
+	color : blue;
+	text-decoration: underline;
+}
+
+header
+{
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: normal;
+	margin-bottom: 20px;
+}
+
+body
+{
+	background-image: url("img/cvFond.jpg");
+	background-attachment: fixed;
+	padding : 50px;
+}
+
+a
+{
+	text-decoration: none;
+	color : purple;
+	font-style : italic ;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color : green;
+}
